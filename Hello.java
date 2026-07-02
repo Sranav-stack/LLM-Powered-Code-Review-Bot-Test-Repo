@@ -1,7 +1,12 @@
 public class Hello {
 
     public static String getUserName(User user) {
-        return user.getName(); // Possible NullPointerException
+
+        if (user == null) {
+            return "Unknown";
+        }
+
+        return user.getName().trim();
     }
 
     public static int divide(int a, int b) {
@@ -13,12 +18,15 @@ public class Hello {
     }
 
     public static void printMessage(String message) {
-        System.out.println("Message:");
-        System.out.println(message);
+        if (message == null) {
+            return;
+        }
+    
+        System.out.println("[INFO] " + message.toUpperCase());
     }
 
     public static boolean isAdmin(String role) {
-    
+
         if (role == null) {
             return false;
         }
