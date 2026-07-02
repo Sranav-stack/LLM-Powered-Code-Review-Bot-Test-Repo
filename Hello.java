@@ -13,22 +13,24 @@ public class Hello {
     }
 
     public static void printMessage(String message) {
-        String unused = "Hello"; // Unused variable
+        System.out.println("Message:");
         System.out.println(message);
     }
 
     public static boolean isAdmin(String role) {
-        if (role == "ADMIN") { // Incorrect String comparison
-            return true;
+    
+        if (role == null) {
+            return false;
         }
-        return false;
+    
+        return role.equals("ADMIN");
     }
 
     public static void main(String[] args) {
-        User user = null;
+        User user = new User("Sranav");
 
         System.out.println(getUserName(user));
-        System.out.println(divide(10, 0));
+        System.out.println(divide(10, 2));
         printMessage("Testing...");
     }
 }
