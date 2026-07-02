@@ -9,12 +9,13 @@ public class Hello {
         return user.getName().trim();
     }
 
-    public static int divide(int a, int b) {
+    public static double divide(int a, int b) {
+
         if (b == 0) {
-            throw new IllegalArgumentException("Cannot divide by zero");
+            throw new IllegalArgumentException("Division by zero");
         }
     
-        return a / b;
+        return (double) a / b;
     }
 
     public static void printMessage(String message) {
@@ -22,7 +23,7 @@ public class Hello {
             return;
         }
     
-        System.out.println("[INFO] " + message.toUpperCase());
+        System.out.println("[LOG] " + message.trim().toUpperCase());
     }
 
     public static boolean isAdmin(String role) {
@@ -31,15 +32,24 @@ public class Hello {
             return false;
         }
     
-        return role.equals("ADMIN");
+        return role.equalsIgnoreCase("ADMIN");
+    }
+
+    public static boolean isEmpty(String text) {
+
+        return text == null || text.isBlank();
     }
 
     public static void main(String[] args) {
-        User user = new User("Sranav");
+        User user = new User("Alice");
 
         System.out.println(getUserName(user));
-        System.out.println(divide(10, 2));
-        printMessage("Testing...");
+        
+        double result = divide(20, 5);
+        System.out.println(result);
+        
+        printMessage("Modified PR Test");
+        System.out.println(isAdmin("ADMIN"));
     }
 }
 
