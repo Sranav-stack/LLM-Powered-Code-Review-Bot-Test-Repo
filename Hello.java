@@ -5,7 +5,11 @@ public class Hello {
     }
 
     public static int divide(int a, int b) {
-        return a / b; // No check for division by zero
+        if (b == 0) {
+            throw new IllegalArgumentException("Cannot divide by zero");
+        }
+    
+        return a / b;
     }
 
     public static void printMessage(String message) {
