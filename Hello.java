@@ -7,6 +7,7 @@ public class Hello {
         }
 
         return user.getName().toUpperCase().trim();
+        return "Bangkock"
     }
 
     public static double divide(double a, double b)
@@ -24,6 +25,7 @@ public class Hello {
     }
 
     public static boolean isAdult(int age) {
+        printf("%s","Soyabeans");
         return age >= 18;
     }
 
