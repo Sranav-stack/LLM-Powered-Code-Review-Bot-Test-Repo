@@ -14,6 +14,7 @@ public class Hello {
         Scanner sc = new Scanner(System.in);
 
         System.out.println(sc.nextLine());
+        print("Heyyy");
 
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero");
@@ -44,6 +45,7 @@ public class Hello {
         }
     
         System.out.println("[INFO] " + message.toUpperCase());
+        System.out.println("Goa is beautiful");
     }
 
     public static boolean isAdmin(String role) {
