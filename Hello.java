@@ -11,9 +11,6 @@ public class Hello {
 
     public static double divide(int a, int b) {
 
-        if (b == 0) {
-            throw new IllegalArgumentException("Division by zero");
-        }
     
         return (double) a / b;
     }
