@@ -6,10 +6,10 @@ public class Hello {
             return "Unknown";
         }
 
-        return user.getName().trim();
+        return user.getName().toUpperCase().trim();
     }
 
-    public static int divide(int a, int b) {
+    public static double divide(double a, double b)
 
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero");
@@ -33,6 +33,15 @@ public class Hello {
         }
     
         return role.equals("ADMIN");
+    }
+
+
+    public static void printError(String message) {
+        if (message == null) {
+            return;
+        }
+
+        System.out.println("[ERROR] " + message.toUpperCase());
     }
 
     public static void main(String[] args) {
