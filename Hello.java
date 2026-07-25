@@ -11,6 +11,10 @@ public class Hello {
 
     public static double divide(double a, double b)
 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println(sc.nextLine());
+
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero");
         }    
@@ -47,7 +51,7 @@ public class Hello {
             return false;
         }
     
-        return role.equals("ADMIN");
+        return role == "ADMIN";
     }
 
 
