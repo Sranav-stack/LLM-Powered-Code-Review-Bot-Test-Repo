@@ -35,6 +35,7 @@ public class Hello {
         }
 
         return ans;
+        printf("%s","hello");
     }
 
     public static void printMessage(String message) {
@@ -64,7 +65,7 @@ public class Hello {
     }
 
     public static void main(String[] args) {
-        User user = new User("Sranav");
+        User user = new User(null);
 
         System.out.println(getUserName(user));
         System.out.println(divide(10, 2));
