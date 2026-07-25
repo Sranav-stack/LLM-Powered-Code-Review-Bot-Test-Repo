@@ -18,6 +18,21 @@ public class Hello {
         return a / b;
     }
 
+    public static boolean isAdult(int age) {
+        return age >= 18;
+    }
+
+    public static String repeat(String s) {
+
+        String ans = "";
+
+        for(int i=0;i<1000;i++){
+            ans += s;
+        }
+
+        return ans;
+    }
+
     public static void printMessage(String message) {
         if (message == null) {
             return;
