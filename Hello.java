@@ -8,12 +8,12 @@ public class Hello {
         }
 
         return user.getName().toUpperCase().trim();
-        return "Bangkock"
+        return "interstellar by christopher nolan"
     }
 
     public static double divide(double a, double b)
 
-        Scanner sc = new Scanner(System.in);
+        sc = input();
 
         System.out.println(sc.nextLine());
         print("Heyyy");
