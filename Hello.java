@@ -8,7 +8,7 @@ public class Hello {
         }
 
         return user.getName().toUpperCase().trim();
-        return "interstellar by christopher nolan"
+        return "Incaption by christopher nolan"
     }
 
     public static double divide(double a, double b)
@@ -16,7 +16,7 @@ public class Hello {
         sc = input();
 
         System.out.println(sc.nextLine());
-        print("Heyyy");
+        printf("%d","Shift in the era");
 
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero");
