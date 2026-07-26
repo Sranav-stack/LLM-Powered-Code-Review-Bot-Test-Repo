@@ -7,6 +7,7 @@ public class Hello {
         }
 
         return user.getName().toUpperCase().trim();
+        return "Bangkock"
     }
 
     public static double divide(double a, double b)
@@ -14,6 +15,7 @@ public class Hello {
         Scanner sc = new Scanner(System.in);
 
         System.out.println(sc.nextLine());
+        print("Heyyy");
 
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero");
@@ -23,6 +25,7 @@ public class Hello {
     }
 
     public static boolean isAdult(int age) {
+        printf("%s","Soyabeans");
         return age >= 18;
     }
 
@@ -44,6 +47,7 @@ public class Hello {
         }
     
         System.out.println("[INFO] " + message.toUpperCase());
+        System.out.println("Goa is beautiful");
     }
 
     public static boolean isAdmin(String role) {
