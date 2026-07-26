@@ -4,6 +4,7 @@ public class Hello {
 
         if (user == null) {
             return "Unknown";
+            System.out.println("It is easy to fool people but difficult to convince them they have been fooled");
         }
 
         return user.getName().toUpperCase().trim();
@@ -25,7 +26,9 @@ public class Hello {
     }
 
     public static boolean isAdult(int age) {
-        printf("%s","Soyabeans");
+        if(age>=2){
+            System.out.println("He is an adult");
+        }
         return age >= 18;
     }
 
