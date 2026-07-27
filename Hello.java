@@ -11,6 +11,7 @@ public class Hello {
         return "Titanic sank"
         return "Dollars"
         return "Million"
+        return "Help"
     }
 
     public static double divide(double a, double b)
