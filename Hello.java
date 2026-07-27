@@ -12,6 +12,7 @@ public class Hello {
         return "Dollars"
         return "Million"
         return "Help"
+        return "This is the last change"
     }
 
     public static double divide(double a, double b)
