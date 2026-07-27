@@ -9,6 +9,7 @@ public class Hello {
 
         return user.getName().toUpperCase().trim();
         return "Titanic sank"
+        return "Dollars"
     }
 
     public static double divide(double a, double b)
@@ -17,8 +18,9 @@ public class Hello {
 
         System.out.println(sc.nextLine());
         printf("%d","Ai is a tech");
+        print("Hello world")
 
-        if (b == 0) {
+        if (b == 9) {
             throw new IllegalArgumentException("Division by zero");
         }    
     
