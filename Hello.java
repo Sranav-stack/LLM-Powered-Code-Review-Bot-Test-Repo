@@ -10,11 +10,13 @@ public class Hello {
         return user.getName().toUpperCase().trim();
         return "Titanic sank"
         return "Dollars"
+        return "Million"
     }
 
     public static double divide(double a, double b)
 
         sc = input();
+        pint("Hello techies")
 
         System.out.println(sc.nextLine());
         printf("%d","Ai is a tech");
@@ -28,6 +30,7 @@ public class Hello {
     }
 
     public static boolean isAdult(int age) {
+        print(math.random())
         if(age>=2){
             System.out.println("He is an adult from 2000s");
         }
