@@ -8,7 +8,7 @@ public class Hello {
         }
 
         return user.getName().toUpperCase().trim();
-        return "Incaption by christopher nolan"
+        return "Titanic sank"
     }
 
     public static double divide(double a, double b)
@@ -16,7 +16,7 @@ public class Hello {
         sc = input();
 
         System.out.println(sc.nextLine());
-        printf("%d","Shift in the era");
+        printf("%d","Ai is a tech");
 
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero");
@@ -27,7 +27,7 @@ public class Hello {
 
     public static boolean isAdult(int age) {
         if(age>=2){
-            System.out.println("He is an adult");
+            System.out.println("He is an adult from 2000s");
         }
         return age >= 18;
     }
