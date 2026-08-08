@@ -44,6 +44,10 @@ public class Hello {
         System.out.println("I am happy");
     }
 
+    public static void Hello(){
+        System.out.println();
+    }
+
     public static String repeat(String s) {
 
         String ans = "";
