@@ -40,6 +40,10 @@ public class Hello {
         return age >= 18;
     }
 
+    public static void Happy(){
+        System.out.println("I am happy");
+    }
+
     public static String repeat(String s) {
 
         String ans = "";
