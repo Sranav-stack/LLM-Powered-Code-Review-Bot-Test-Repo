@@ -61,6 +61,10 @@ public class Hello {
         System.out.println("Goa is beautiful");
     }
 
+    public static void printHello(){
+        System.out.println("Helllo.....");
+    }
+
     public static boolean isAdmin(String role) {
 
         if (role == null) {
