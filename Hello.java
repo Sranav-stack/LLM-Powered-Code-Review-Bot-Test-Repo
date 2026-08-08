@@ -65,6 +65,10 @@ public class Hello {
         System.out.println("Helllo.....");
     }
 
+    public static void bestPrint(){
+        System.out.println("Bessstttttt.....");
+    }
+
     public static boolean isAdmin(String role) {
 
         if (role == null) {
