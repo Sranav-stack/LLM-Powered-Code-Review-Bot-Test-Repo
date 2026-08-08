@@ -13,6 +13,7 @@ public class Hello {
         return "Million"
         return "Help"
         return "This is the last change"
+        return "Hawaie"
     }
 
     public static double divide(double a, double b)
@@ -58,6 +59,10 @@ public class Hello {
     
         System.out.println("[INFO] " + message.toUpperCase());
         System.out.println("Goa is beautiful");
+    }
+
+    public static void printHello(){
+        System.out.println("Helllo.....");
     }
 
     public static boolean isAdmin(String role) {
